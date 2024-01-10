@@ -1,0 +1,208 @@
+Net: SiameseXMLIS (Weights shared: True)
+(Encoder): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Doc): Transform(
+  (transform): Identity()
+) 
+(EncoderLabel): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Label): Transform(
+  (transform): Identity()
+) 
+
+Loading training data.
+Loading validation data.
+Net: SiameseXMLIS (Weights shared: True)
+(Encoder): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Doc): Transform(
+  (transform): Identity()
+) 
+(EncoderLabel): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Label): Transform(
+  (transform): Identity()
+) 
+
+Loading training data.
+Loading validation data.
+Net: SiameseXMLIS (Weights shared: True)
+(Encoder): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Doc): Transform(
+  (transform): Identity()
+) 
+(EncoderLabel): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Label): Transform(
+  (transform): Identity()
+) 
+
+Loading training data.
+Loading validation data.
+Net: SiameseXMLIS (Weights shared: True)
+(Encoder): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Doc): Transform(
+  (transform): Identity()
+) 
+(EncoderLabel): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Label): Transform(
+  (transform): Identity()
+) 
+
+Loading training data.
+Loading validation data.
+Net: SiameseXMLIS (Weights shared: True)
+(Encoder): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Doc): Transform(
+  (transform): Identity()
+) 
+(EncoderLabel): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Label): Transform(
+  (transform): Identity()
+) 
+
+Loading training data.
+Loading validation data.
+Net: SiameseXMLIS (Weights shared: True)
+(Encoder): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Doc): Transform(
+  (transform): Identity()
+) 
+(EncoderLabel): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Label): Transform(
+  (transform): Identity()
+) 
+
+Loading training data.
+Loading validation data.
+Net: SiameseXMLIS (Weights shared: True)
+(Encoder): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Doc): Transform(
+  (transform): Identity()
+) 
+(EncoderLabel): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Label): Transform(
+  (transform): Identity()
+) 
+
+Loading training data.
+Loading validation data.
+Net: SiameseXMLIS (Weights shared: True)
+(Encoder): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Doc): Transform(
+  (transform): Identity()
+) 
+(EncoderLabel): Transform(
+  (transform): STransformer(
+    (transform): SentenceTransformer(
+      (0): Transformer({'max_seq_length': 512, 'do_lower_case': False}) with Transformer model: DistilBertModel 
+      (1): Pooling({'word_embedding_dimension': 768, 'pooling_mode_cls_token': False, 'pooling_mode_mean_tokens': True, 'pooling_mode_max_tokens': False, 'pooling_mode_mean_sqrt_len_tokens': False})
+    )
+  )
+)
+(Transform Label): Transform(
+  (transform): Identity()
+) 
+
+Loading training data.
+Loading validation data.

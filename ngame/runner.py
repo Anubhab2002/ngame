@@ -6,6 +6,9 @@ from main import main
 import shutil
 import tools.evaluate as evalaute
 import tools.surrogate_mapping as surrogate_mapping
+import torch
+
+torch.cuda.memory_summary(device=None, abbreviated=False)
 
 
 def create_surrogate_mapping(data_dir, g_config, seed):
